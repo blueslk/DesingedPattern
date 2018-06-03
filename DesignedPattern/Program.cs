@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignedPattern.Strategy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace DesignedPattern
     {
         static void Main(string[] args)
         {
+            TravelContext context = new TravelContext(Way.火车);
+            context.Travel();
+            Console.Read();
         }
     }
 }

@@ -50,6 +50,8 @@
     <Compile Include="Singleton\HungrySingleton.cs" />
     <Compile Include="Singleton\IShowHashCode.cs" />
     <Compile Include="Singleton\LazySingleton.cs" />
+    <Compile Include="Strategy\TravelContext.cs" />
+    <Compile Include="Strategy\TravelWay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
